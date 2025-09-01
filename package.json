@@ -32,8 +32,8 @@
     "publish": [
       {
         "provider":"github",
-        "owner" :"",
-        "repo" : ""
+        "owner" :"suryap-0812",
+        "repo" : "BasicElectronapp"
       }
     ],
     "directories" : {
