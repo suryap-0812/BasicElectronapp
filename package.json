@@ -1,6 +1,6 @@
 {
   "name": "basic_electron",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Basic Electron App with Auto-Updater",
   "main": "main.js",
   "homepage": "https://github.com/suryap-0812/BasicElectronapp",
