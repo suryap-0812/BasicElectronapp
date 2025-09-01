@@ -1,0 +1,46 @@
+{
+  "name": "basic_electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^37.4.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.bill.myapp",
+    "productName": "BasicElectronApp",
+
+    "files": [
+      "main.js",
+      "index.html",
+      "package.json"
+    ],
+    "win": {
+      "target" : "nsis", 
+      "icon" : "icon.ico"
+    },
+    "publish": [
+      {
+        "provider":"github",
+        "owner" :"",
+        "repo" : ""
+      }
+    ],
+    "directories" : {
+      "output" : "dist"
+    }
+  },
+  "dependencies": {
+    "electron-updater": "^6.6.2"
+  }
+}
